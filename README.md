@@ -13,14 +13,12 @@ API: ACCUWEATHER's API
 
 Deployment:
 
-1. copied the source code to my webserver in a specific location /var/www/
-2. configured my server's root directive to serve exactly that folder. via default config file in
-/etc/nginx/sites-available/
+1. copied the source code to my webservers using scp
+2. configured my server's root directive to serve exactly from the location that contains my application file.
 3. and after reloaded the server to apply the changes
+4. used the Load balancer to redirect traffic to my two servers. 
 
-since there is no domain name associated to it can be accessed via botht of these  servers using ip address:
- - http://44.222.227.193/
-
+to access and use the web appliction using a domain name use: www.naimable.tech
 
 demo video: https://youtu.be/y1OXlpPnds4
 THANKYOU!
